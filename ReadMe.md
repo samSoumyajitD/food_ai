@@ -161,6 +161,19 @@ npm install
 
 ---
 
+## AI and NLP Techniques Employed
+
+### 1. **TF-IDF Vectorization (Term Frequency-Inverse Document Frequency)**
+To transform textual data (such as food names and descriptions) into numerical feature representations, we utilize **TF-IDF Vectorization** through the `TfidfVectorizer` from **scikit-learn**. This technique efficiently captures the importance of words within a given corpus by weighing them based on both their frequency within a document and their uniqueness across the entire dataset. By representing text in this way, the system is able to analyze and compare food descriptions in a structured, high-dimensional feature space, facilitating precise recommendation filtering.
+
+### 2. **Cosine Similarity for Textual Matching**
+To assess the similarity between the user-preferred food items and the available recommendations, we leverage **Cosine Similarity**. This metric measures the angular distance between two vectors in a multi-dimensional space, where smaller angles indicate higher similarity. By using this method to compare the TF-IDF vectors of food descriptions, we effectively identify the most relevant food items aligned with user preferences, enhancing recommendation accuracy.
+
+### 3. **Fuzzy String Matching with FuzzyWuzzy**
+To account for input inconsistencies, typographical errors, or vague user queries (such as city names or cuisine types), we incorporate **FuzzyWuzzy**, a Python library that enables **fuzzy string matching**. FuzzyWuzzy employs a **Levenshtein Distance** algorithm to measure the difference between sequences, allowing the system to intelligently identify the closest valid match from a list of predefined values. This approach ensures robustness in handling user input variations and improves the system's resilience to imperfect data.
+
+--- 
+
 ## Contributing
 Contributions are welcome! Feel free to open issues or submit pull requests.
 
