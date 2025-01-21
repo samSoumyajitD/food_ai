@@ -1,11 +1,11 @@
 /* Container styling */
 .container {
   max-width: 900px;
-  margin: 20px auto 0 auto;
+  margin: 40px auto;
   padding: 20px 30px;
   background: linear-gradient(135deg, #fdfbfb, #ebedee);
   border-radius: 15px;
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   font-family: 'Poppins', sans-serif;
   color: #2c3e50;
 }
@@ -184,7 +184,14 @@ h1 {
 }
 
 /* Button styling */
+.button_div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
 .btn {
+  width: 50%;
   padding: 14px;
   font-size: 18px;
   background: linear-gradient(135deg, #6c63ff, #5a56e0);

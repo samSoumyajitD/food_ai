@@ -86,7 +86,7 @@ const FoodRecommendation = () => {
       value={cuisineType}
       onChange={(e) => setCuisineType(e.target.value)}
     />
-
+<div className='button_div'>
     <button className="btn enhanced-btn" onClick={handleRecommendation} disabled={loading}>
       {loading ? (
         <div className="loader"></div>
@@ -94,6 +94,7 @@ const FoodRecommendation = () => {
         'Get Recommendations'
       )}
     </button>
+    </div>
   </div>
 </div>
 
