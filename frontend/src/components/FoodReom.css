@@ -1,93 +1,348 @@
-/* General container styling */
+/* Container styling */
 .container {
+  max-width: 900px;
+  margin: 20px auto 0 auto;
+  padding: 20px 30px;
+  background: linear-gradient(135deg, #fdfbfb, #ebedee);
+  border-radius: 15px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  font-family: 'Poppins', sans-serif;
+  color: #2c3e50;
+}
 
-    max-width: 600px;
-    margin: 40px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    font-family: Arial, sans-serif;
+/* Header styling */
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #2c3e50;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+
+/* Form group styles */
+/* Container styling */
+.form-container {
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 40px;
+  background: linear-gradient(145deg, #ffffff, #f0f0f0);
+  border-radius: 20px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 28px;
+  color: #2c3e50;
+  font-weight: 700;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+/* Form group styles */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Input fields */
+.form-control {
+  padding: 12px 16px;
+  border: none;
+  border-radius: 12px;
+  font-size: 15px;
+  background-color: #f9f9f9;
+  color: #34495e;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.form-control:focus {
+  background-color: #fff;
+  border: 2px solid #3498db;
+  box-shadow: 0 8px 20px rgba(52, 152, 219, 0.2);
+  outline: none;
+}
+
+.input-enhanced {
+  background: linear-gradient(145deg, #fafafa, #e9e9e9);
+  box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.05),
+    inset -4px -4px 8px rgba(255, 255, 255, 0.9);
+}
+
+/* Base styles for the select box */
+.modern-select {
+  padding: 12px 16px;
+  border: none;
+  border-radius: 12px;
+  font-size: 15px;
+  background: #f3f6fb; /* Subtle light grayish-blue for a modern look */
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  color: #4f5d73; /* A dark, cool neutral color */
+}
+
+/* Hover effect */
+.modern-select:hover {
+  background: #ffffff; /* Slightly brighter on hover */
+}
+
+/* Focused state */
+.modern-select:focus {
+  border: 2px solid #5b9bd5; /* Light blue for a clean focused state */
+  box-shadow: 0 8px 20px rgba(91, 155, 213, 0.3);
+  outline: none;
+}
+
+/* Veg selection style */
+.modern-select.veg {
+  background: #e8f7f3; /* Soft light teal for a refreshing feel */
+  color: #2c8c7e; /* Muted teal for modern green */
+  box-shadow: 0 5px 15px rgba(44, 140, 126, 0.2);
+}
+
+/* Non-Veg selection style */
+.modern-select.non-veg {
+  background: #ffefe7; /* Subtle peachy tone */
+  color: #d33f3f; /* Deep coral red for a modern accent */
+  box-shadow: 0 5px 15px rgba(211, 63, 63, 0.2);
+}
+
+/* Optional 'Any' selection style */
+.modern-select.any {
+  background: linear-gradient(135deg, #e0f7fa, #d1c4e9); /* Soft gradient for a minimal look */
+  color: #3f51b5; /* Cool indigo blue for a stylish, modern vibe */
+  box-shadow: 0 5px 15px rgba(63, 81, 181, 0.2);
+}
+
+
+
+
+
+
+
+
+/* Container for alignment and spacing */
+.dropdown-container {
+  width: 100%;
+  max-width: 300px;
+  margin: 20px auto;
+  position: relative;
+}
+
+/* Modern Select Dropdown */
+.modern-select {
+  width: 100%;
+  padding: 12px 16px;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  font-size: 16px;
+  background: #f7f8fc;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  appearance: none; /* Remove default browser styles */
+  position: relative;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Focused State */
+.modern-select:focus {
+  border-color: #3498db;
+  box-shadow: 0 0 8px rgba(52, 152, 219, 0.4);
+  outline: none;
+}
+
+/* Add Custom Arrow */
+.modern-select::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 16px;
+  width: 10px;
+  height: 10px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%232c3e50' viewBox='0 0 24 24'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E");
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+/* Hover Effect */
+.modern-select:hover {
+  border-color: #95a5a6;
+}
+
+/* Option Styling (Optional) */
+.modern-select option {
+  padding: 12px;
+  font-size: 16px;
+  background: #fff;
+}
+
+/* Button styling */
+.btn {
+  padding: 14px;
+  font-size: 18px;
+  background: linear-gradient(135deg, #6c63ff, #5a56e0);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background: linear-gradient(135deg, #5a56e0, #493dcb);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(92, 84, 241, 0.3);
+}
+
+/* Disabled button style */
+.btn:disabled {
+  background: #e0e0e0; /* Soft light gray for a minimal, cool look */
+  color: #b0b0b0; /* Muted text color */
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+
+/* Placeholder styling */
+.form-control::placeholder {
+  color: #95a5a6;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* Smooth transitions */
+.form-control,
+.btn {
+  transition: all 0.3s ease-in-out;
+}
+
+
+/* Error text */
+.error-text {
+  color: #ff4d4f;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+/* Loader animation */
+.loader {
+  border: 4px solid #f0f0f0;
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 0.8s linear infinite;
+  margin: 0 auto;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
   }
-  
-  /* Header styling */
-  h1 {
-    text-align: center;
-    margin-bottom: 20px;
-    color: #333;
+  100% {
+    transform: rotate(360deg);
   }
-  
-  /* Form group styles */
-  .form-group {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-  }
-  
-  /* Input and select fields */
-  .form-control {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
-  }
-  
-  /* Button styling */
-  .btn {
-    padding: 10px;
-    font-size: 16px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    text-align: center;
-    transition: background-color 0.3s;
-  }
-  
-  .btn:hover {
-    background-color: #0056b3;
-  }
-  
-  /* Error text */
-  .error-text {
-    color: red;
-    text-align: center;
-    margin-top: 15px;
-  }
-  
-  /* Loader animation */
-  .loader {
-    border: 4px solid #f3f3f3;
-    border-top: 4px solid #007bff;
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    animation: spin 1s linear infinite;
-    margin: 20px auto;
-  }
-  
-  @keyframes spin {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
-  }
-  
-  /* Recommendations list */
-  .recommendation-list {
-    list-style: none;
-    padding: 0;
-    margin-top: 20px;
-  }
-  
-  .recommendation-item {
-    background: #f9f9f9;
-    padding: 15px;
-    margin-bottom: 10px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
+}
+
+/* Recommendations list */
+/* Recommendation list container */
+.recommendation-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Two columns, responsive */
+  gap: 20px; /* Spacing between items */
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+/* Recommendation item */
+.recommendation-item {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+}
+
+
+.recommendation-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Recommendation content */
+.recommendation-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.food-name {
+  font-size: 20px;
+  color: #2c3e50;
+  font-weight: 700;
+  margin: 0;
+}
+
+.food-description {
+  font-size: 16px;
+  color: #7f8c8d;
+  line-height: 1.5;
+}
+
+/* Restaurant section */
+.restaurant-section {
+  margin-top: 15px;
+}
+
+.restaurant-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #3498db;
+  margin-bottom: 10px;
+}
+
+.restaurant-list {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.restaurant-item {
+  background-color: #ecf0f1;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #34495e;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.restaurant-item:hover {
+  background-color: #dfe6e9;
+}
+
+/* No recommendations message */
+.no-recommendations {
+  text-align: center;
+  font-size: 18px;
+  color: #95a5a6;
+  font-weight: 500;
+  margin-top: 20px;
+}

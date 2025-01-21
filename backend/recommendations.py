@@ -37,8 +37,8 @@ def recommend_food_for_weather(city, preference="any", cuisine_type="any"):
         model = genai.GenerativeModel(model_name="gemini-1.5-flash")
         prompt = (
             f"The weather in {city} is {weather['main']} with a temperature of {weather['temp']}°C. "
-            f"Suggest 50 {preference} food items from {cuisine_type} cuisine suitable for this weather. "
-            f"Return the output in JSON format with name and description."
+            f"Suggest 30 {preference} food items from {cuisine_type} cuisine suitable for this weather and the restaurants in {city} that serve that food items. "
+            f"Return the output in JSON format with name and description and list of restaurants."
         )
         response = model.generate_content(prompt)
 
