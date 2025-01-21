@@ -1,0 +1,272 @@
+[
+    {
+        "name": "Butter Chicken",
+        "description": "A creamy and rich chicken dish popular in Indian cuisine, made with a tomato and butter-based gravy."
+    },
+    {
+        "name": "Margherita Pizza",
+        "description": "A classic Italian pizza topped with fresh tomatoes, mozzarella cheese, and basil."
+    },
+    {
+        "name": "Vegetable Fried Rice",
+        "description": "Chinese-style fried rice cooked with mixed vegetables and flavorful sauces."
+    },
+    {
+        "name": "Paneer Tikka",
+        "description": "Spiced and grilled chunks of paneer (Indian cottage cheese) served with mint chutney."
+    },
+    {
+        "name": "Mughlai Biryani",
+        "description": "A rich and aromatic rice dish layered with marinated meat or vegetables and spices."
+    },
+    {
+        "name": "Chicken Shawarma",
+        "description": "Middle Eastern dish featuring thinly sliced chicken wrapped in pita bread with vegetables and tahini sauce."
+    },
+    {
+        "name": "Chole Bhature",
+        "description": "North Indian dish consisting of spicy chickpea curry served with deep-fried bread."
+    },
+    {
+        "name": "Gulab Jamun",
+        "description": "An Indian dessert made from milk solids, deep-fried and soaked in sugar syrup."
+    },
+    {
+        "name": "Tom Yum Soup",
+        "description": "A spicy and sour Thai soup with shrimp, mushrooms, and aromatic herbs."
+    },
+    {
+        "name": "Tandoori Chicken",
+        "description": "Chicken marinated in yogurt and spices, roasted in a clay oven for a smoky flavor."
+    },
+    {
+        "name": "Pasta Alfredo",
+        "description": "Creamy Italian pasta dish made with fettuccine and a rich Alfredo sauce."
+    },
+    {
+        "name": "Rasgulla",
+        "description": "A popular Bengali dessert made from spongy balls of chhena soaked in sugar syrup."
+    },{
+        "name": "Dosa",
+        "description": "A thin, crispy crepe made from fermented rice and lentil batter, typically served with chutney and sambar."
+    },
+    {
+        "name": "Hyderabadi Biryani",
+        "description": "A fragrant rice dish cooked with marinated meat (usually chicken or mutton) and aromatic spices."
+    },
+    {
+        "name": "Sambar",
+        "description": "A lentil-based stew from South India, made with vegetables, tamarind, and spices, usually served with rice or dosa."
+    },
+    {
+        "name": "Pakhala Bhata",
+        "description": "A traditional Bengali dish of fermented rice served with curd and accompaniments like fried fish."
+    },
+    {
+        "name": "Macher Jhol",
+        "description": "A Bengali fish curry made with fresh fish, potatoes, and a variety of spices, typically served with rice."
+    },
+    {
+        "name": "Idli",
+        "description": "Steamed rice cakes made from fermented rice and urad dal batter, commonly served with chutney and sambar."
+    },
+    {
+        "name": "Vada",
+        "description": "A crispy, deep-fried doughnut-shaped snack made from urad dal, often paired with sambar."
+    },
+    {
+        "name": "Medu Vada",
+        "description": "A popular South Indian snack made from black gram dal, deep-fried until golden and crispy, served with chutney."
+    },
+    {
+        "name": "Methi Thepla",
+        "description": "A Gujarati flatbread made with fenugreek leaves, wheat flour, and spices, typically served with yogurt or pickle."
+    },
+    {
+        "name": "Bengali Mishti Doi",
+        "description": "A sweetened yogurt dessert from Bengal, flavored with caramelized sugar."
+    },
+    {
+        "name": "Rogan Josh",
+        "description": "A Kashmiri-style lamb curry cooked in a rich and aromatic gravy with various spices."
+    },
+    {
+        "name": "Pani Puri",
+        "description": "A popular street food consisting of crispy hollow balls filled with spicy water, tamarind chutney, and potatoes."
+    },
+    {
+        "name": "Aloo Paratha",
+        "description": "A stuffed flatbread made with whole wheat flour, filled with spiced mashed potatoes, typically served with yogurt and pickle."
+    },
+    {
+        "name": "Pav Bhaji",
+        "description": "A Bombay street food consisting of mashed vegetable curry served with buttered pav (bread rolls)."
+    },
+    {
+        "name": "Chana Masala",
+        "description": "A hearty and spicy chickpea curry, typically served with rice or Indian bread like roti or naan."
+    },
+    {
+        "name": "Bhel Puri",
+        "description": "A popular Indian snack made with puffed rice, vegetables, tamarind chutney, and spices."
+    },
+    {
+        "name": "Kadhi Pakora",
+        "description": "A North Indian dish made from gram flour dumplings cooked in a yogurt-based gravy."
+    },
+    {
+        "name": "Momos",
+        "description": "A type of Tibetan dumpling filled with vegetables or meat, often served with a spicy dipping sauce."
+    },
+    {
+        "name": "Kothu Parotta",
+        "description": "A South Indian street food made by mixing shredded parotta with vegetables, meat, and spices."
+    },
+    {
+        "name": "Kheer",
+        "description": "A traditional Indian dessert made from rice, milk, and sugar, flavored with cardamom and garnished with dry fruits."
+    },
+    {
+        "name": "Gobi Manchurian",
+        "description": "A popular Indo-Chinese dish where cauliflower florets are deep-fried and tossed in a spicy, tangy sauce."
+    },
+    {
+        "name": "Samosa",
+        "description": "A deep-fried pastry filled with spiced potatoes, peas, and sometimes meat, often served with chutney."
+    },
+    {
+        "name": "Lassi",
+        "description": "A refreshing yogurt-based drink, available in sweet or salty versions, popular in Punjab."
+    },
+    {
+        "name": "Chili Paneer",
+        "description": "A popular Indo-Chinese dish where paneer (Indian cottage cheese) is stir-fried with vegetables and a spicy sauce."
+    },
+    {
+        "name": "Kali Mirch Chicken",
+        "description": "A spicy, pepper-flavored chicken curry that is a specialty of Indian cuisine."
+    },
+    {
+        "name": "Kachori",
+        "description": "A deep-fried pastry filled with spiced lentils or peas, typically served as a snack or breakfast."
+    },
+    {
+        "name": "Pesarattu",
+        "description": "A South Indian pancake made from green gram dal, typically served with ginger chutney."
+    },
+    {
+        "name": "Dhokla",
+        "description": "A steamed savory cake made from fermented rice and chickpea flour, a popular snack in Gujarat."
+    },
+    {
+        "name": "Aloo Gobi",
+        "description": "A dry curry made with potatoes and cauliflower, spiced with turmeric and garam masala."
+    },
+    {
+        "name": "Baingan Bharta",
+        "description": "A smoky-flavored mashed eggplant curry made with tomatoes, onions, and spices."
+    },
+    {
+        "name": "Naan",
+        "description": "A soft, leavened flatbread, typically served with curries or used to scoop up food."
+    },
+    {
+        "name": "Tandoori Roti",
+        "description": "A type of Indian bread baked in a tandoor (clay oven), often served with curries."
+    },
+    {
+        "name": "Palak Paneer",
+        "description": "A popular North Indian curry made from pureed spinach and paneer cubes."
+    },
+    {
+        "name": "Biryani",
+        "description": "A spiced rice dish cooked with meat or vegetables, often served with yogurt or raita."
+    },
+    {
+        "name": "Methi Paratha",
+        "description": "A flatbread made with fenugreek leaves, wheat flour, and spices, often served with yogurt or pickle."
+    },
+    {
+        "name": "Prawn Malai Curry",
+        "description": "A Bengali dish made with prawns cooked in a creamy coconut-based gravy."
+    },
+    {
+        "name": "Shorshe Ilish",
+        "description": "A traditional Bengali dish made with hilsa fish, cooked in mustard sauce."
+    },
+    {
+        "name": "Dhokla",
+        "description": "A savory, steamed cake made from chickpea flour and spices, typically served with chutney."
+    },
+    {
+        "name": "Bhindi Masala",
+        "description": "A dry curry made with ladyfinger (okra), onions, tomatoes, and Indian spices."
+    },
+    {
+        "name": "Puri",
+        "description": "A round, deep-fried bread made from unleavened wheat flour dough, commonly served with curry."
+    },
+    {
+        "name": "Suran Ki Sabzi",
+        "description": "A dry curry made from yam (suran), often cooked with onions, tomatoes, and Indian spices."
+    },
+    {
+        "name": "Litti Chokha",
+        "description": "A traditional Bihari dish made of wheat flour balls stuffed with roasted gram flour and served with mashed vegetables."
+    },
+    {
+        "name": "Kadai Paneer",
+        "description": "A spicy paneer curry made with bell peppers, onions, and tomatoes, cooked in a wok (kadai)."
+    },
+    {
+        "name": "Schezwan Noodles",
+        "description": "Spicy, stir-fried Chinese noodles with vegetables, flavored with Schezwan sauce."
+    },
+    {
+        "name": "Baked Samosa",
+        "description": "A healthier variation of the classic samosa, baked instead of deep-fried."
+    },
+    {
+        "name": "Thali",
+        "description": "A traditional Indian meal served on a round platter, with various small portions of different dishes."
+    },
+    {
+        "name": "Pongal",
+        "description": "A South Indian dish made with rice, lentils, and black pepper, typically served with chutney and sambar."
+    },
+    {
+        "name": "Methi Malai Murg",
+        "description": "A creamy chicken curry made with fenugreek leaves, cream, and a blend of aromatic spices."
+    },
+    {
+        "name": "Khaman",
+        "description": "A Gujarati steamed snack made from fermented chickpea flour, served with chutney."
+    },
+    {
+        "name": "Kadhi",
+        "description": "A yogurt-based curry typically served with rice, made with gram flour dumplings or vegetables."
+    },{
+        "name": "Mapo Tofu",
+        "description": "A spicy Chinese dish featuring tofu cooked in a sauce made with chili bean paste, garlic, and minced meat."
+    },
+    {
+        "name": "Egg Foo Young",
+        "description": "A Chinese-style omelette made with vegetables, meats, and a savory brown gravy."
+    },
+    {
+        "name": "Fried Wontons",
+        "description": "Crispy fried dumplings filled with meat or vegetables, often served with a dipping sauce."
+    },
+    {
+        "name": "Peking Duck",
+        "description": "A famous Chinese dish featuring crispy duck served with thin pancakes, hoisin sauce, and sliced vegetables."
+    },
+    {
+        "name": "Steamed Fish with Ginger and Scallions",
+        "description": "A delicately flavored dish where fish is steamed with fresh ginger, garlic, and scallions."
+    },
+    {
+        "name": "Mongolian Beef",
+        "description": "A savory dish with sliced beef, onions, and a soy-based sauce, often cooked with ginger and garlic."
+    }
+]

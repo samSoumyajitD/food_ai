@@ -1,0 +1,74 @@
+# Python Bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Environment Variables
+*.env
+*.flaskenv
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# Logs and Runtime Files
+logs/
+*.log
+*.pid
+
+# Database Files
+*.sqlite3
+*.db
+
+# Static Cache
+static/cache/
+
+# Flask Specific
+instance/
+*.py[cod]
+*.pyd
+*.so
+*.egg
+*.egg-info
+
+# Coverage and Testing
+.coverage
+htmlcov/
+.cache/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Build and Distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Docker
+Dockerfile
+*.dockerignore
+*.tar
+.docker/
+
+# Node (if using frontend with npm)
+node_modules/
+package-lock.json
+yarn.lock
+npm-debug.log
+
+# Miscellaneous
+*.bak
+*.tmp
+.DS_Store
+Thumbs.db
