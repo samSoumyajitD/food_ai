@@ -79,6 +79,8 @@ project-root/
 1. **Navigate to the `backend` directory**:
    ```
    cd backend
+   venv\Scripts\activate
+   
    ```
 2. **Install Python dependencies**:
    ```
