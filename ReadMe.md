@@ -80,7 +80,6 @@ project-root/
    ```
    cd backend
    venv\Scripts\activate
-   
    ```
 2. **Install Python dependencies**:
    ```
