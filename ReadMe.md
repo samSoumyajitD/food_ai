@@ -103,9 +103,9 @@ project-root/
    ```
    cd frontend
    ```
-2. **Install Node.js dependencies**:
+2. **Install dependencies**:
    ```
-   npm install
+   npm i
    ```
 3. **Run the React application**:
    ```
