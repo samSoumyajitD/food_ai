@@ -26,8 +26,8 @@ def recommend_food_from_preferences(recommended_foods, vectorizer, feature_matri
     # Sort by similarity scores
     sorted_indices = similarity_scores.max(axis=1).argsort()[::-1]  # Descending order
     
-    # Return at least 10 and at most 20 foods
-    num_to_return = min(max(10, len(recommended_foods)), 20)
+    # Return at least 6 and at most 10 foods
+    num_to_return = min(max(6, len(recommended_foods)), 10)
     return [recommended_foods[i] for i in sorted_indices[:num_to_return]]
 
 def prefered_ai_food_recommendation(city, preference="any", cuisine_type="any"):
