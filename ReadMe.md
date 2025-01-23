@@ -85,6 +85,9 @@ project-root/
 2. **Install Python dependencies**:
    ```
    pip install -r requirements.txt
+   pip install --upgrade Flask Werkzeug
+   pip install flask-cors
+   pip install python-Levenshtein
    ```
 3. **Set up the `.env` file**:
    Create a `.env` file in the `backend` directory with the following keys:
